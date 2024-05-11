@@ -1,0 +1,29 @@
+.wrapper {
+  padding: 11px;
+  border: 1px solid var(--border);
+  border-radius: 18px;
+
+  > .listItem {
+    > .button {
+      width: 100%;
+      padding: 12px;
+      text-align: start;
+      cursor: pointer;
+
+      > .label {
+        letter-spacing: -0.1px;
+        height: 18px;
+        vertical-align: middle;
+      }
+    }
+  }
+
+  > .selected {
+    background: var(--primary);
+    border-radius: 12px;
+
+    .label {
+      color: var(--alt-text);
+    }
+  }
+}

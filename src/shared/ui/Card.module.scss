@@ -1,0 +1,29 @@
+.wrapper {
+  border-radius: 18px;
+  height: 100%;
+  overflow: hidden;
+  box-shadow: 0 10px 13px -4px rgba(35, 35, 95, 0.19);
+
+  > .imageBlock {
+    width: 100%;
+    height: 162px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    > .cover {
+      width: 144.5px;
+      height: 144px;
+    }
+  }
+
+  > .infoBlock {
+    padding: 12px 18px 18px;
+
+    > label {
+      height: 18px;
+      letter-spacing: 0;
+      vertical-align: middle;
+    }
+  }
+}
